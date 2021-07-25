@@ -9,3 +9,71 @@
 body {
     font-family: 'Titillium Web', sans-serif;
 }
+
+header {
+    background-color: #F7F7F7;
+}
+
+.container {
+    margin: 0 8rem;
+}
+
+.top-nav {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px 16px;
+}
+
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 10px 32px;
+    border-radius: 4px;
+}
+
+.btn-link {
+    color: white;
+    background-color: #251D58;
+}
+
+img.logo {
+    width: 125px;
+    height: 51px;
+}
+
+/* header section style */
+
+.header-area {
+    padding: 0 8rem;
+}
+
+.header-item {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-text {
+    margin: 10px 0 30px 0;
+}
+
+.top-left, .top-right {
+    width: 50%;
+}
+
+.top-left h1 {
+    font-size: 60px;
+}
+
+.top-right img {
+    width: 571px;
+    height: 502px;
+}
