@@ -67,6 +67,16 @@ img {
     background-color: #251D58;
 }
 
+.btn-link:hover {
+    font-weight: 700;
+    padding: 10px 20px;
+    color: #251D58;
+    background-color: lightblue;
+    border-inline: 10px solid #251D58;
+    transition: 0.4s ease-in-out;
+    transform: border-inline;
+}
+
 img.logo {
     width: 125px;
     height: 51px;
@@ -91,6 +101,10 @@ img.logo {
 
 .top-left, .top-right {
     width: 50%;
+}
+
+.top-left {
+    padding-right: 60px;
 }
 
 .top-right img {
@@ -264,10 +278,13 @@ input, textarea {
 
 input {
     width: 250px;
+    border: none;
 }
 
 textarea {
-    width: 530px;
+    width: 523px;
+    border: none;
+    height: 200px;
 }
 
 .send {
@@ -282,9 +299,10 @@ footer {
 }
 
 .footer-area {
-    padding: 30px 8rem;
+    padding: 40px 8rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -295,7 +313,7 @@ footer {
 }
 
 .address {
-    margin-left: 10px;
+    margin-left: 12px;
     display: flex;
     flex-direction: column;
 }
@@ -319,21 +337,14 @@ footer {
 .fas, .fab {
     font-size: 24px;
     color: #FFFFFF;
-    margin: 0;
-    padding: 0;
 }
 
 .fab:hover {
-    color: gray;
+    color: #F7F7F7;
 }
 
-
-
-
 .footer-location, .footer-company, .footer-quick-links, .footer-about {
-    border: 1px solid white;
-    margin: 0 10px;
-    padding: 8px;
+    padding: 12px;
 }
 
 .hq-location, .quick-links, .about-text {
@@ -345,9 +356,17 @@ footer {
 }
 
 .social-links {
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .fab {
-    margin-right: 8px;
+    margin-right: 12px;
 }
+
+.footer-text {
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* media query style */
+
