@@ -45,7 +45,7 @@ h6 {
     font-size: 20px;
 }
 
-a {
+.nav-link a {
     text-decoration: none;
     font-size: 20px;
     padding: 12px 16px;
@@ -272,4 +272,82 @@ textarea {
 
 .send {
     text-align: center;
+}
+
+/* footer style */
+
+footer {
+    color: #FFFFFF;
+    background-color: #251D58;
+}
+
+.footer-area {
+    padding: 30px 8rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.hq-location {
+    display: flex;
+    align-items: center;
+}
+
+.address {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quick-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.quick-links a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.quick-links a:hover {
+    color: blueviolet;
+}
+
+.fas, .fab {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.fab:hover {
+    color: gray;
+}
+
+
+
+
+.footer-location, .footer-company, .footer-quick-links, .footer-about {
+    border: 1px solid white;
+    margin: 0 10px;
+    padding: 8px;
+}
+
+.hq-location, .quick-links, .about-text {
+    margin-top: 12px;
+}
+
+.about-text {
+    color: silver;
+}
+
+.social-links {
+    margin-top: 16px;
+}
+
+.fab {
+    margin-right: 8px;
 }
