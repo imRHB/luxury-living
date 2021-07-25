@@ -33,8 +33,16 @@ h2 {
     font-size: 48px;
 }
 
+h3 {
+    font-size: 36px;
+}
+
 h5 {
     font-size: 24px;
+}
+
+h6 {
+    font-size: 20px;
 }
 
 a {
@@ -167,3 +175,57 @@ img.logo {
     text-align: center;
     margin: 50px 0;
 }
+
+/* testimonials style */
+
+.container-test {
+    padding: 30px 8rem;
+    background-color: #F7F7F7;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 40px;
+}
+
+.testimonial-title {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.testimonial-area {
+    margin: 100px 0;
+}
+
+.testimonial-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+.testimonial-card:hover {
+    box-shadow: 0 0 40px 1px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+    margin: 30px 20px;
+}
+
+.person-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.person-info img {
+    width: 64px;
+    height: 64px;
+}
+
+.name-dgn {
+    margin-left: 16px;
+}
+
+.testimonial-text {
+    margin: 10px 0;
+}
+
